@@ -1000,7 +1000,7 @@ a {
 
 .main-nav__link {
 	display: block;
-	font: 22px/35px 'Patrick Hand', cursive;
+	font: 28px/35px 'Patrick Hand', cursive;
 	white-space: nowrap;
 	color: #fff
 }
@@ -1193,7 +1193,7 @@ a {
 .first-screen__bg-1 {
 	width: 1920px;
 	height: 100%;
-	margin: 0 0 0 -960px;
+	margin: 0 0 0 -1000px;
 	position: absolute;
 	top: 0;
 	left: 50%;
@@ -1314,7 +1314,7 @@ a {
 }
 
 .main-top {
-	padding: 182px 0 0;
+	padding: 110px 0 0;
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
@@ -1651,11 +1651,12 @@ a {
 }
 
 .ui-slider__image {
-	width: 329px;
-	margin: 0 0 0 -164.5px;
+	/* width: 329px; */
+	width:  500px;
+	margin: 0 0 0 -137.5px;
 	position: absolute;
 	top: 0;
-	left: 50%;
+	/* left: 50%; */
 	box-shadow: 0 10px 20px rgba(47, 21, 135, .18);
 	border-radius: 20px
 }
@@ -4683,6 +4684,7 @@ a {
 		background: #ff6231;
 		border-radius: 50%
 	}
+	
 	.main-title__text:after {
 		margin: 0 0 14px 2px
 	}
@@ -4750,11 +4752,13 @@ a {
 		height: 589px
 	}
 	.ui-slider__image {
+		/* width: 300px; */
+		/* margin: 0 0 0 -110px; */
 		width: 280px;
-		margin: 0 0 0 -140px
+		margin: 0 0 0 -53px;
 	}
 	.ui-slider__all {
-		height: 650px;
+		height: 480px;
 		position: relative
 	}
 	.downloads-block {
@@ -5404,7 +5408,16 @@ a {
   .number svg path {
     fill: rgba(0, 0, 0, 0.7);
   }
-
+  @media screen and (max-width:767px) {
+	.step .title {
+		font-family: 'Patrick Hand', cursive;
+		font-size: 27px;
+		font-weight: 600;
+		margin: 10px 0 8px;
+		color: rgb(18, 39, 83);
+		padding-bottom: 20px;
+	  }
+  }
 
   /* crew */
 
