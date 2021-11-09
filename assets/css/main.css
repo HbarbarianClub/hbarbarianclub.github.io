@@ -1191,14 +1191,16 @@ a {
 }
 
 .first-screen__bg-1 {
-	width: 1920px;
-	height: 100%;
-	margin: 0 0 0 -1000px;
+	height: 100%; 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	object-fit: cover;
 	position: absolute;
 	top: 0;
-	left: 50%;
-	background-repeat: no-repeat;
-	background-size: 100% 100%
+	bottom: 0;
+	left: 0;
+	right: 0;
 }
 
 .first-screen__bg-2 {
@@ -4624,10 +4626,18 @@ a {
 		min-height: 0;
 		padding: 0
 	}
-	/* .first-screen__bg-1 { */
-		/* width: 960px; */
-		/* margin: 0 0 0 -480px */
-	/* } */
+	.first-screen__bg-1 { 
+		height: 100%; 
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		object-fit: cover;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		 }
 	.first-screen__bg-2 {
 		width: 1200px;
 		height: 250px;
@@ -4647,7 +4657,7 @@ a {
 		table-layout: fixed
 	}
 	.first-screen__cell {
-		height: 100vh;
+		/* height: 100vh; */
 		padding: 100px 0 80px;
 		display: table-cell;
 		vertical-align: middle
