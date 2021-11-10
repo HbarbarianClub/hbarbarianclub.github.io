@@ -1111,7 +1111,7 @@ a {
 
 .subscription__text {
 	font-family: 'Patrick Hand', cursive;
-	max-width: 440px;
+	max-width: 100%;
 	padding: 7px 0;
 	display: block
 }
