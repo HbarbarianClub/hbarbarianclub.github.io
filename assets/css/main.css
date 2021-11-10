@@ -1191,14 +1191,16 @@ a {
 }
 
 .first-screen__bg-1 {
-	width: 1920px;
-	height: 100%;
-	margin: 0 0 0 -1000px;
+	height: 100%; 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	object-fit: cover;
 	position: absolute;
 	top: 0;
-	left: 50%;
-	background-repeat: no-repeat;
-	background-size: 100% 100%
+	bottom: 0;
+	left: 0;
+	right: 0;
 }
 
 .first-screen__bg-2 {
@@ -1530,7 +1532,7 @@ a {
 }
 
 .check-list__item {
-	padding: 0 0 20px 41px;
+	padding: 0 0 15px 41px;
 	position: relative;
 	font: 22px/170% 'Patrick Hand', cursive;
 }
@@ -1544,7 +1546,7 @@ a {
 	width: 20px;
 	height: 20px;
 	position: absolute;
-	top: 3px;
+	top: 9px;
 	left: 0;
 	background: url(../img/svg/check.svg) 0 0/100% 100% no-repeat
 }
@@ -4624,10 +4626,18 @@ a {
 		min-height: 0;
 		padding: 0
 	}
-	/* .first-screen__bg-1 { */
-		/* width: 960px; */
-		/* margin: 0 0 0 -480px */
-	/* } */
+	.first-screen__bg-1 { 
+		height: 100%; 
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		object-fit: cover;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		 }
 	.first-screen__bg-2 {
 		width: 1200px;
 		height: 250px;
@@ -4647,7 +4657,7 @@ a {
 		table-layout: fixed
 	}
 	.first-screen__cell {
-		height: 100vh;
+		/* height: 100vh; */
 		padding: 100px 0 80px;
 		display: table-cell;
 		vertical-align: middle
@@ -4728,7 +4738,7 @@ a {
 		font-size: 18px
 	}
 	.check-list__item:after {
-		top: 1px
+		top: 6px
 	}
 	.presentation-block {
 		min-height: 600px;
